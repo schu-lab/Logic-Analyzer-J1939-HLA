@@ -1,14 +1,14 @@
 {
-    "version": "1.0.0",
-    "apiVersion": "1.0.0",
-    "author": "Simon Chu",
-    "name": "J1939 Analyzer",
-    "description": "Decodes SAE J1939 traffic live within the CAN Analyzer",
-    "repository": "https://en.wikipedia.org/wiki/SAE_J1939",
-    "extensions": {
-        "J1939": {
-            "type": "HighLevelAnalyzer",
-            "entryPoint": "j1939_hla.J1939Hla"
-        }
+  "version": "1.0.1",
+  "apiVersion": "1.0.1",
+  "author": "Simon Chu",
+  "name": "J1939 Analyzer",
+  "description": "Decodes SAE J1939 traffic live within the CAN Analyzer",
+  "repository": "https://en.wikipedia.org/wiki/SAE_J1939",
+  "extensions": {
+    "J1939": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "j1939_hla.J1939Hla"
     }
+  }
 }
